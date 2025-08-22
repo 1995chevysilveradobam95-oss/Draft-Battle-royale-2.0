@@ -1,0 +1,65 @@
+body {
+  background: #111;
+  color: #eee;
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.arena {
+  padding: 20px;
+}
+
+button {
+  background: darkred;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+#battlefield {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.character {
+  width: 120px;
+  margin: 10px;
+  position: relative;
+}
+
+.character img {
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #333;
+}
+
+.dead img {
+  filter: grayscale(100%) blur(1px);
+  opacity: 0.5;
+}
+
+#log {
+  background: #222;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #333;
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
+
+#winner {
+  font-size: 24px;
+  margin-top: 20px;
+  color: crimson;
+  font-weight: bold;
+}
